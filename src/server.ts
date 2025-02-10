@@ -10,7 +10,7 @@ connectDB()
 const app = express()
 
 // CORS
-app.use(cors(corsConfig))
+// app.use(cors(corsConfig))
 
 app.use(express.json())
 
