@@ -15,7 +15,7 @@ exports.corsConfig = {
             callback(new Error('Error de CORS'));
         }
     },
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Permitir OPTIONS
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'], // Permitir OPTIONS
     allowedHeaders: ['Content-Type', 'Authorization'], // Permitir encabezados comunes
     credentials: true // Permitir credenciales (si es necesario)
 };
